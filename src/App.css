@@ -1,38 +1,56 @@
 .App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+
+  width:60%;
+  margin:0px auto; 
 }
 
-.App-link {
-  color: #61dafb;
+.column {
+  color:black;
+  text-align: center;
+  width: 50%;
+  height: 300px;
+  border:4px solid rgb(132, 130, 130);
+  margin:5px;
+}
+.column p{
+  font-size:22px;
+  margin-top:0px;
+  color:black;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.container_main{
+  justify-content: space-between;
+  display: flex;
+  background-color: rgb(201, 200, 200);
+  margin:5px;
+  padding:5px 8px;
+  color:white;
+  font-size: 15px;
+  font-weight: bold;
+}
+
+.container {
+  display: inline;
+  height: 100%;
+  border:1px solid black;
+  background-color: rgb(175, 237, 237);
+  padding:1px;
+  border-radius: 10px;
+}
+
+button {
+  width: 25px;
+  height: 20px;
+  background-color: rgb(201, 200, 200);
+  color: black;
+  border-radius: 30px;
+
+}
+
+/*apply hover effect to button tag*/
+
+button:hover {
+  background-color: greenyellow;
+  color: grey;
 }

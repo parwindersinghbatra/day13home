@@ -1,0 +1,29 @@
+.cart{
+    border:1px solid green;
+    height: 300px;
+}
+.main_div{
+    height: 190px;
+}
+.container_main{
+    justify-content: space-between;
+    display: flex;
+    background-color: rgb(201, 200, 200);
+    margin:5px;
+    padding:5px 8px;
+    color:white;
+    font-size: 15px;
+    font-weight: bold;
+  }
+
+  .container_bottom{
+    background-color: rgb(201, 200, 200);
+    margin:5px;
+    padding:5px 8px;
+    color:white;
+    font-weight: bold;
+    text-align: right;
+  }
+  .container_bottom>p{
+    font-size:15px;
+  }
